@@ -2,6 +2,23 @@
 
 An interactive command-line tool that helps you learn and use PowerShell commands with AI-powered explanations and safety features.
 
+## Installation 
+
+1. Install required packages:
+```powershell
+git clone https://github.com/myselfayush010/ai-powershell.git
+cd ai-powershell
+pip install -r requirements.txt
+pip install -r requirements.txt --upgrade
+```
+
+2. Set up your environment:
+   - Copy `env.example` to `.env`:
+     ```powershell
+     Copy-Item env.example .env
+     ```
+   - Edit `.env` and configure your preferred AI provider:
+
 ## Features 
 
 -  AI-powered command generation from natural language
@@ -17,21 +34,6 @@ An interactive command-line tool that helps you learn and use PowerShell command
 -  Dangerous command warnings
 -  Command confirmation prompts
 -  System protection measures
-
-## Installation 
-
-1. Install required packages:
-```powershell
-cd ai-powershell
-pip install -r requirements.txt
-```
-
-2. Set up your environment:
-   - Copy `env.example` to `.env`:
-     ```powershell
-     Copy-Item env.example .env
-     ```
-   - Edit `.env` and configure your preferred AI provider:
 
 ### AI Provider Configuration 🤖
 
