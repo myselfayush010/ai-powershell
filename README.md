@@ -22,6 +22,7 @@ An interactive command-line tool that helps you learn and use PowerShell command
 
 1. Install required packages:
 ```powershell
+cd ai-powershell
 pip install -r requirements.txt
 ```
 
