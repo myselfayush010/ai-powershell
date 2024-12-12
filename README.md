@@ -22,7 +22,7 @@ An interactive command-line tool that helps you learn and use PowerShell command
 
 1. Install required packages:
 ```powershell
-pip install -r requirements_powershell.txt
+pip install -r requirements.txt
 ```
 
 2. Set up your environment:
