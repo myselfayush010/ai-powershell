@@ -2,7 +2,7 @@
 
 An interactive command-line tool that helps you learn and use PowerShell commands with AI-powered explanations and safety features.
 
-# currently support only in window
+# currently support only in windows     
 ## Installation 
 
 1. Install required packages:
